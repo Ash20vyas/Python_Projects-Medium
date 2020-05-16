@@ -2,7 +2,7 @@ import random
 name = input("Enter your name: ")
 print("Hello,", name)
 rating = 0
-inputs = input().split(",")
+inputs = input("Input a sequence(if none press enter): ").split(",")
 if inputs == ['']:
     inputs = ["rock", "paper", "scissors"]
 print("Okay, let's start")
